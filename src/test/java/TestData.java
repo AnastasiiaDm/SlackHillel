@@ -6,4 +6,6 @@ public interface TestData {
     String badPass = "baspass";
     String badURL = "badURL";
 
+    String newMessage = "text " + Helper.timeStamp() + "\n";
+
 }
