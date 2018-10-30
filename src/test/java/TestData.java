@@ -4,5 +4,6 @@ public interface TestData {
     String username = "apple.incor@gmail.com";
     String pass = "Password2018";
     String badPass = "baspass";
+    String badURL = "badURL";
 
 }

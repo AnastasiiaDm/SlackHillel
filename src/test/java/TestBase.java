@@ -1,5 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
@@ -12,18 +13,26 @@ public class TestBase {public static WebDriver browser;
     @BeforeTest
     public static void openBrowser() {
         setProperty("webdriver.chrome.driver", "D:\\Nasik\\для Java\\chromedriver.exe");
-
         browser = new ChromeDriver();
+        browser.get(TestData.baseURL);
         browser.manage().window().maximize();
         browser.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 
         h = new Helper(browser);
     }
 
-//    @AfterTest
-//    public static void closeBrowser() {
-//        browser.quit();
-//
-//    }
+    @AfterTest
+    public static void closeBrowser() {
+        browser.quit();
+
+    }
+//    FluentWait example
+
+//    List<WebElement> buttonProfile =
+//        new FluentWait<>(browser)
+//                .withTimeout(Duration.ofSeconds(7))
+//                .pollingEvery(Duration.ofMillis(500))
+//                .ignoring(InvalidElementStateException.class)
+//                .until(browser -> browser.findElements(By.cssSelector("span#team_menu_user_name")));
 
 }
