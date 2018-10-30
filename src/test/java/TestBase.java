@@ -21,11 +21,11 @@ public class TestBase {public static WebDriver browser;
         h = new Helper(browser);
     }
 
-    @AfterTest
-    public static void closeBrowser() {
-        browser.quit();
-
-    }
+//    @AfterTest
+//    public static void closeBrowser() {
+//        browser.quit();
+//
+//    }
 //    FluentWait example
 
 //    List<WebElement> buttonProfile =

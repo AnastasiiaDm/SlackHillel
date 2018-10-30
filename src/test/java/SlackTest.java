@@ -94,7 +94,10 @@ public class SlackTest extends TestBase {
     @Test(dependsOnMethods = {"loginSuccess"})
     public static void sendMessage() {
         System.out.println("   sendMessage test start");
-        h.findAndFill(By.cssSelector("div.ql-editor"), TestData.newMessage);
+
+        browser.findElement(By.xpath("//*[text() = 'Rosovsky']")).click();
+
+        h.findAndFill(By.cssSelector("div#msg_input div.ql-editor"), TestData.newMessage);
         System.out.println("enter text success");
 
 //        List<WebElement> linkNewIssues = browser.findElements(By.cssSelector("a[class='issue-created-key issue-link']"));
