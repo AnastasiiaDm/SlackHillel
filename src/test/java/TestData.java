@@ -6,6 +6,9 @@ public interface TestData {
     String badPass = "baspass";
     String badURL = "badURL";
 
-    String newMessage = "text " + Helper.timeStamp() + "\n";
+    String newMessage = "text " + Helper.timeStamp();
+
+    String shortLogin = "https://hillelqa.slack.com/messages/DDRNEBKFW/";
+
 
 }

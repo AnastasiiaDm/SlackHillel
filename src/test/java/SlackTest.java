@@ -10,6 +10,8 @@ import java.time.Duration;
 import java.util.List;
 
 public class SlackTest extends TestBase {
+    static String messagePath;
+
     private static void enterURL(boolean isSuccess){
         browser.get(TestData.baseURL);
         System.out.println("   enterURL test start");
@@ -95,16 +97,17 @@ public class SlackTest extends TestBase {
     public static void sendMessage() {
         System.out.println("   sendMessage test start");
 
-        browser.findElement(By.xpath("//*[text() = 'Rosovsky']")).click();
+        browser.findElement(By.xpath("//*[text() = 'Nasik']")).click();
 
-        h.findAndFill(By.cssSelector("div#msg_input div.ql-editor"), TestData.newMessage);
+        messagePath = TestData.newMessage;
+
+        h.findAndFill(By.cssSelector("div#msg_input div.ql-editor"), messagePath + "\n");
         System.out.println("enter text success");
 
-//        List<WebElement> linkNewIssues = browser.findElements(By.cssSelector("a[class='issue-created-key issue-link']"));
-//
-//        Assert.assertTrue(linkNewIssues.size() != 0);
-//
-//        newIssuePath = linkNewIssues.get(0).getAttribute("href");
+        List<WebElement> messageText = browser.findElements(By.xpath("//*[text()='"+ messagePath + "']"));
+
+        System.out.println(messageText.get(0));
+        Assert.assertTrue(messageText.size() > 0);
 //
 //        System.out.println("New issue Summary: " + newIssueSummary + "\n" + "createIssue success");
     }
