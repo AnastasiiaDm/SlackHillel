@@ -45,6 +45,7 @@ public class ShortLogin extends TestBase {
 
     @Test(dependsOnMethods = {"sendMessage"})
     public static void messageReceive( List<WebElement> sentMessageText) {
+        System.out.println("messageReceive start");
 //        browser.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
 //        ArrayList<String> tabs = new ArrayList<String>(browser.getWindowHandles());
 //        browser.switchTo().window(tabs.get(1));
