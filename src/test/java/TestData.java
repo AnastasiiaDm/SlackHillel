@@ -6,9 +6,11 @@ public interface TestData {
     String badPass = "baspass";
     String badURL = "badURL";
 
+    String assignerName = "tt266744@gmail.com";
+    String assignerPass ="Test8Nasik";
+
     String newMessage = "text " + Helper.timeStamp();
 
-    String shortLogin = "https://hillelqa.slack.com/messages/DDRNEBKFW/";
 
 
 }
