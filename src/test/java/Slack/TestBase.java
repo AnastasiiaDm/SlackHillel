@@ -1,7 +1,8 @@
+package Slack;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -25,16 +26,16 @@ public class TestBase {
         browser.get(TestData.baseURL);
 
         browser.manage().window().maximize();
-        browser.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+        browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         h = new Helper(browser);
     }
 
-    @AfterTest
-    public static void closeBrowser() {
-        browser.quit();
-
-    }
+//    @AfterTest
+//    public static void closeBrowser() {
+//        browser.quit();
+//
+//    }
 
 
 //    FluentWait example

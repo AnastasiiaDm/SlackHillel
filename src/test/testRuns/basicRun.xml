@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity Suite" verbose="0" group-by-instances="true">
+    <test name="Sanity" verbose="1" group-by-instances="true">
+        <parameter name="browserType" value="chrome"/>
+        <classes>
+            <class name="Slack.SlackTest">
+            <methods>
+                <include name="enterURLSuccess" />
+                <include name="loginSuccess" />
+                <include name="sendMessage" />
+
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+        <!-- mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/sanityRun.xml -->

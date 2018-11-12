@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8df14c59-9292-4ccb-a193-551c4da9fb25" name="Default Changelist" comment="login success">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Slack/SlackActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testRuns/basicRun.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SlackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SlackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ShortLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShortLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SlackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SlackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slack/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShortLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SlackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slack/SlackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slack/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slack/TestData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,20 +23,22 @@
     <session id="-1944931741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.67" value="3" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="basicRun" value="1" />
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="10" />
           <entry key="xml" value="1" />
           <entry key="xsl" value="1" />
         </counts>
@@ -41,34 +47,54 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="1690" />
+          <entry key="java" value="2083" />
           <entry key="txt" value="18" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1690" />
+          <entry key="JAVA" value="2083" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="40" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SlackTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Slack/SlackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="73" column="61" lean-forward="true" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
+            <state relative-caret-position="170">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1128#1129#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Slack/SlackActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="120" column="32" selection-start-line="112" selection-start-column="8" selection-end-line="120" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,13 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ShortLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/test/testRuns/basicRun.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="75" column="13" selection-start-line="74" selection-start-column="9" selection-end-line="75" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -91,40 +114,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="529">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Helper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Slack/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="323">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestData.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Slack/TestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Slack/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            <state relative-caret-position="366">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,6 +189,13 @@
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShortLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/SlackTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Slack/Helper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Slack/TestData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Slack/ShortLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Slack/SlackTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Slack/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/testRuns/basicRun.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Slack/SlackActions.java" />
       </list>
     </option>
   </component>
@@ -188,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,16 +247,30 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SlackHillel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SlackHillel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Slack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SlackHillel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SlackHillel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testRuns" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541184542175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542058127802" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -244,11 +292,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SlackTest">
-    <configuration name="ShortLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml">
+    <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SlackHillel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortLogin" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testRuns/basicRun.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -258,7 +306,61 @@
     <configuration name="SlackTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SlackHillel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SlackTest" />
+      <option name="MAIN_CLASS_NAME" value="Slack.SlackTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlackTest.enterURLSuccess" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SlackHillel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Slack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Slack" />
+      <option name="MAIN_CLASS_NAME" value="Slack.SlackTest" />
+      <option name="METHOD_NAME" value="enterURLSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlackTest.messageReceive" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SlackHillel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Slack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Slack" />
+      <option name="MAIN_CLASS_NAME" value="Slack.SlackTest" />
+      <option name="METHOD_NAME" value="messageReceive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlackTest.sendMessage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SlackHillel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Slack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Slack" />
+      <option name="MAIN_CLASS_NAME" value="Slack.SlackTest" />
+      <option name="METHOD_NAME" value="sendMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -267,12 +369,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.SlackTest" />
-      <item itemvalue="TestNG.ShortLogin" />
+      <item itemvalue="TestNG.SlackTest.enterURLSuccess" />
+      <item itemvalue="TestNG.SlackTest.messageReceive" />
+      <item itemvalue="TestNG.SlackTest.sendMessage" />
+      <item itemvalue="TestNG.D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" />
         <item itemvalue="TestNG.SlackTest" />
-        <item itemvalue="TestNG.ShortLogin" />
+        <item itemvalue="TestNG.SlackTest.sendMessage" />
+        <item itemvalue="TestNG.SlackTest.messageReceive" />
+        <item itemvalue="TestNG.SlackTest.enterURLSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -305,42 +413,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SlackTest - 2018.11.02 at 19h 37m 17s.xml">
+    <history-entry file="D__Nasik_AQA_SlackHillel_src_test_testRuns_basicRun_xml - 2018.11.12 at 22h 31m 15s.xml">
+      <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Nasik_AQA_SlackHillel_src_test_testRuns_basicRun_xml - 2018.11.12 at 22h 37m 44s.xml">
+      <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Nasik_AQA_SlackHillel_src_test_testRuns_basicRun_xml - 2018.11.12 at 22h 44m 29s.xml">
+      <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Nasik_AQA_SlackHillel_src_test_testRuns_basicRun_xml - 2018.11.12 at 22h 51m 05s.xml">
+      <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SlackTest - 2018.11.12 at 22h 54m 32s.xml">
       <configuration name="SlackTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 19h 38m 59s.xml">
+    <history-entry file="SlackTest - 2018.11.12 at 23h 01m 03s.xml">
       <configuration name="SlackTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 19h 46m 36s.xml">
+    <history-entry file="SlackTest - 2018.11.12 at 23h 06m 24s.xml">
       <configuration name="SlackTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 19h 48m 31s.xml">
+    <history-entry file="SlackTest - 2018.11.12 at 23h 15m 01s.xml">
       <configuration name="SlackTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 19h 50m 13s.xml">
-      <configuration name="SlackTest" configurationId="TestNG" />
+    <history-entry file="D__Nasik_AQA_SlackHillel_src_test_testRuns_basicRun_xml - 2018.11.12 at 23h 27m 19s.xml">
+      <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 19h 58m 07s.xml">
-      <configuration name="SlackTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 20h 00m 27s.xml">
-      <configuration name="SlackTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 20h 03m 47s.xml">
-      <configuration name="SlackTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 20h 05m 28s.xml">
-      <configuration name="SlackTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SlackTest - 2018.11.02 at 20h 35m 26s.xml">
-      <configuration name="SlackTest" configurationId="TestNG" />
+    <history-entry file="D__Nasik_AQA_SlackHillel_src_test_testRuns_basicRun_xml - 2018.11.12 at 23h 33m 50s.xml">
+      <configuration name="D:/Nasik/AQA/SlackHillel/src/test/testRuns/basicRun.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,8 +456,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.072013095" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45171848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.599018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,6 +475,34 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45171848" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.599018" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.45335516" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -395,56 +531,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SlackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="73" column="61" lean-forward="true" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShortLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="75" column="13" selection-start-line="74" selection-start-column="9" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="529">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Slack/ShortLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Slack/TestData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Slack/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="323">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Slack/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Slack/SlackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testRuns/basicRun.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Slack/SlackActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="120" column="32" selection-start-line="112" selection-start-column="8" selection-end-line="120" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

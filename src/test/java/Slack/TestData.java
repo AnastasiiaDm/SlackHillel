@@ -1,3 +1,5 @@
+package Slack;
+
 public interface TestData {
     String baseURL = "https://slack.com/";
     String userURL = "hillelQA";
@@ -11,6 +13,7 @@ public interface TestData {
 
     String newMessage = "text " + Helper.timeStamp();
 
+    String senderName = "Konstantin";
 
 
 }
